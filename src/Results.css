@@ -1,0 +1,131 @@
+#CenterDIV {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(25, 12, 36, 0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    display: none;
+    z-index: 100;
+    margin: 0 auto;
+}
+
+.divFloat {
+    margin: 10% 30%;
+    position: absolute;
+    background-color: #2b2727;
+    color: white;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15);
+    display: block;
+    float: left;
+}
+
+.divFloat>img {
+    float: left;
+    margin-right: 20px;
+    box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15);
+
+}
+
+.divFloat>h2 {
+    margin-bottom: 10px;
+}
+
+.textTrun>a {
+    color: rgb(116, 116, 124);
+}
+
+.textTrun>a:hover {
+    transition: all 0.1s ease-in;
+    opacity: 0.5;
+}
+
+.btClose {
+    float: right;
+    background-color: transparent;
+    color: #0c0c13;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.btClose:hover {
+    transition: all 0.1s ease-in;
+    opacity: 0.6;
+}
+
+.stats {
+    padding: 10px;
+    float: right;
+    background-color: #1e1e20;
+    margin-top: 10px;
+    min-height: 168px;
+    min-width: 315px;
+    border-radius: 7px;
+}
+
+.stats p {
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .divFloat {
+        margin: 10% 20%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .divFloat {
+        margin: 5% 10%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .divFloat {
+        margin: 5% 5%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .divFloat {
+        margin: 1% 1%;
+    }
+}
+
+@media screen and (max-width: 616px) {
+    .divFloat {
+        margin: 1% 1%;
+        width: auto;
+    }
+
+    .divFloat>img {
+        width: 40%;
+    }
+
+    .stats {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .divFloat {
+        margin: 1% 1%;
+        width: auto;
+    }
+
+    .divFloat>img {
+        width: 40%;
+    }
+
+    .stats {
+        float: left;
+    }
+}
